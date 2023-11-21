@@ -41,7 +41,6 @@ img {
     text-align: center;
 }
 
-
 .login-container {
     background-color: #9BBEC8;
     padding: 20px;
@@ -105,4 +104,28 @@ button:hover {
 
 .scan-button:hover {
     background-color: #427D9D;
+}
+
+
+/* 不隱藏滾動條 */
+/* .wifi-list-container {
+    display: none;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+} */
+/* 隱藏滾動條 */
+    
+.wifi-list-container {
+    display: none;
+    max-height: 200px;
+    overflow-y: hidden; 
+    margin-top: 10px;
+}
+
+.wifi-list-item {
+    padding: 8px;
+    border: 1px solid #427D9D;
+    border-radius: 5px;
+    margin-bottom: 5px;
 }
